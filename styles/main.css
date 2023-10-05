@@ -1,0 +1,146 @@
+@media screen and (max-width: 560px) {
+  .container {
+    max-width: 560px;
+    padding: 3.2rem;
+    position: relative;
+  }
+
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .background-image img {
+    width: 100%;
+  }
+
+  .container header {
+    width: 100%;
+  }
+
+  .header-logo img {
+    width: 159px;
+    height: 51px;
+    flex-shrink: 0;
+  }
+
+  .hero {
+    width: 100%;
+    margin: 1.6rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  .hero div span {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    letter-spacing: 4.8px;
+    max-width: 221px;
+    width: 100%;
+  }
+
+  .hero .destaque {
+    color: #FFF;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    /* 50% */
+    letter-spacing: -2.8px;
+  }
+
+  .value-content img {
+    width: 271px;
+    height: 98px;
+  }
+
+  .content-leads {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 56px;
+  }
+
+  .form-leads-container {
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 41px;
+    background: linear-gradient(90deg, #BDCFF1 0.45%, #FFF 51.09%);
+  }
+
+  .form-leads-container p {
+    width: 184px;
+    color: #2A2B7D;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+  }
+
+  .form-leads-container p span {
+    color: #2A2B7D;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .input-container {
+    width: 100%;
+    padding: 8px 24px;
+    border-radius: 24px;
+    border: 1px solid #486ED1;
+  }
+
+  .input-container input {
+    width: 100%;
+    background: transparent;
+    border: none;
+  }
+
+  .input-container input::placeholder {
+    color: #486ED1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 175% */
+  }
+
+  .form-container button {
+    display: flex;
+    height: 48px;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: #44BFB6;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+
+    color: #FFF;
+
+    border: none;
+    /* 175% */
+  }
+}

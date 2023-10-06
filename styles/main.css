@@ -80,7 +80,7 @@
   }
 
   .form-leads-container p {
-    width: 184px;
+    text-align: center;
     color: #2A2B7D;
     font-size: 28px;
     font-style: normal;
@@ -124,7 +124,7 @@
     /* 175% */
   }
 
-  .form-container button {
+  .btn-primary {
     display: flex;
     height: 48px;
     padding: 8px 24px;
@@ -141,6 +141,245 @@
     color: #FFF;
 
     border: none;
+    text-decoration: none;
     /* 175% */
+  }
+
+  .value-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+  }
+
+  .medal {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.8rem;
+  }
+
+  .medal img {
+    width: 3.2rem;
+    height: 4.2rem;
+  }
+
+  .medal p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 1.5rem */
+  }
+
+  .medal strong {
+    color: #FAEB21;
+  }
+
+  .about,
+  .main-coverage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    gap: 4rem;
+  }
+
+  .about h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 3rem */
+  }
+
+  .about>p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 1.5rem */
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .card-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 2.25rem */
+  }
+
+  .card-subtitle {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 1.5rem */
+  }
+
+  .main-coverage h3 {
+    max-width: 19.2rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.6rem;
+    /* 180% */
+  }
+
+  .card-main-corvarage {
+    display: flex;
+    flex-direction: column;
+    padding: 4.5rem;
+    gap: 1rem;
+  }
+
+  .card-main-corvarage-title {
+    color: #FFF;
+    margin-top: 1.6rem;
+    text-align: center;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 2.25rem */
+  }
+
+  .card-main-corvarage-description {
+    color: #FFF;
+    text-align: justify;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 1.5rem */
+  }
+
+  .card-main-corvarage-description-sm {
+    font-size: 1.3rem;
+  }
+
+  .background-image-main-coverage {
+    width: 32.8rem;
+    height: 38.6rem;
+    background: url('../assets/border-tyre.svg');
+  }
+  .background-image-main-coverage-border-chave {
+    width: 32.8rem;
+    height: 41.8rem;
+    background: url('../assets/border-chave.svg');
+  }
+  .background-image-main-coverage-border-lupa {
+    width: 32.8rem;
+    height: 48rem;
+    background: url('../assets/border-lupa.svg');
+  }
+  .background-image-main-coverage-border-engrenagem {
+    width: 32.8rem;
+    height: 48.2rem;
+    background: url('../assets/border-engrenagem.svg');
+  }
+
+  .main-coverage-regulation {
+    color: #FFF;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 1.5rem */
+  }
+
+
+  .footer-container {
+    background: #1FC9B7;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  .footer-social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .social-media {
+    display: flex;
+    align-items: center;
+    gap: 1.9rem;
+  }
+
+  .footer-social-media span {
+    max-width: 11.2rem;
+    width: 100%;
+    color: #333B87;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .footer-phone-number {
+    color: #FFF;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .footer-logo img {
+    width: 22.4rem;
+  }
+
+  .help-bike {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2.4rem;
+    border: 2px solid #1FC9B7;
+    gap: 2rem;
+    padding-bottom: 2rem;
+
+  }
+
+  .help-bike-header {
+    padding: 2rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .help-bike-header  > p {
+    color: #FFF;
+    text-align: center;
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.6rem; /* 120% */
   }
 }
